@@ -14,76 +14,78 @@
 </head>
 
 <body>
-  <h1>Create an Account</h1>
-  <section class="name">
-    <label for="f-name">First Name</label>
-    <input type="text" id="f-name" name="f-name">
-    <label for="l-name">Last Name</label>
-    <input type="text" name="l-name" id="l-name">
-  </section>
+  <div class="container">
 
-  <section class="e-mail">
-    <label for="mail">E-mail</label>
-    <input type="email" name="mail" id="mail">
-    <span>We'll never share your email with anyone else.</span>
-  </section>
+    <h1>Create an Account</h1>
+    <section class="name">
+      <div class="halfs">
+        <label for="f-name">First Name</label>
+        <input type="text" id="f-name" name="f-name">
+      </div>
+      <div class="halfs">
+        <label for="l-name">Last Name</label>
+        <input type="text" name="l-name" id="l-name">
+      </div>
+    </section>
 
-  <section class="gender">
+    <section class="e-mail">
+      <label for="mail">E-mail</label>
+      <input type="email" name="mail" id="mail">
+      <span>We'll never share your email with anyone else.</span>
+    </section>
 
-    <label for="male">Male</label>
-    <input type="radio" name="gender-choice" id="male">
+    <section class="gender">
+      <div class="portion">
+        <input type="radio" name="gender-choice" id="male">
+        <label for="male">Male</label>
+      </div>
+      <div class="portion">
+        <input type="radio" name="gender-choice" id="female">
+        <label for="female">Female</label>
+      </div>
+      <div class="portion">
+        <input type="radio" name="gender-choice" id="other">
+        <label for="other">Other</label>
+      </div>
+      <div class="portion">
+        <input type="radio" name="gender-choice" id="rude">
+        <label for="rude">None of your business</label>
+      </div>
+    </section>
 
-    <label for="female">Female</label>
-    <input type="radio" name="gender-choice" id="female">
-
-    <label for="other">Other</label>
-    <input type="radio" name="gender-choice" id="other">
-
-    <label for="rude">None of your business</label>
-    <input type="radio" name="gender-choice" id="rude">
-
-  </section>
-
-  <section class="adress">
-    <label for="country">Country</label>
-    <select name="country" id="country" required>
-      <option value="" selected disabled hidden>Select</option>
-      <option value="first-option">Батько наш Бандера</option>
-      <option value="second-option">Україна-Мати</option>
-    </select>
-
-    <label for="city">City</label>
-    <select name="city" id="city" required>
-      <option value="" selected disabled hidden>Select</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-      <option value="Житомир">Житомир</option>
-    </select>
-  </section>
-
-  <section class="sign-up">
-    <button>Sign Up</button>
-    <span>By clicking the 'Sign Up' button, you confirm that you accept our Terms of Use and Privacy Policy .</span>
-  </section>
-
-  <hr>
-
-  <footer>
-    <span>Have an account?</span>
-    <a href="">Log In</a>
-    <a href="">Update an Account</a>
-  </footer>
-
-
-
-
+    <section class="adress">
+      <label for="country">Country</label>
+      <select name="country" id="country" required>
+        <option value="" selected disabled hidden>Select</option>
+        <option value="first-option">Батько наш Бандера</option>
+        <option value="second-option">Україна-Мати</option>
+      </select>
+      <label for="city">City</label>
+      <select name="city" id="city" required>
+        <option value="" selected disabled hidden>Select</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+        <option value="Житомир">Житомир</option>
+      </select>
+    </section>
+    <section class="sign-up">
+      <button>Sign Up</button>
+      <span>By clicking the 'Sign Up' button, you confirm that you accept our Terms of Use and Privacy Policy .</span>
+    </section>
+    <hr>
+    <footer>
+      <span>Have an account?</span>
+      <a href="">Log In</a>
+      <a href="">Update an Account</a>
+    </footer>
+  </div>
 
 </body>
 

@@ -3,3 +3,74 @@ body {
   margin: 0px;
   background-color: #fff;
 }
+
+.container {
+  width: 570px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-right: auto;
+}
+section {
+  margin-bottom: 20px;
+}
+
+.halfs {
+  display: inline-block;
+  margin: auto;
+  width: 280px;
+}
+
+.name label {
+  display: block;
+  font-size: 15px;
+}
+
+.halfs input {
+  margin-top: 7px;
+  width: 245px;
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgray;
+}
+
+input:hover {
+  border-color: #007BFF;
+}
+
+#mail {
+  width: 525px;
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgray;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+#mail:hover {
+  border-color: #007BFF;
+}
+
+.e-mail>span {
+  display: block;
+  color: #969696;
+  font-size: 13px;
+}
+
+.gender {
+  display: flex;
+  width: 525px;
+}
+
+.portion {
+  margin-right: auto;
+}
+
+.gender>label {
+  font-size: 15px;
+}
+
+
+
