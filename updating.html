@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updating</title>
+</head>
+<body>
+  <h1>Profile</h1>
+  <section class="pic-selection">
+    <img src="profile-pic.png" alt="profile-pic">
+    <span>some form</span>
+    <span>some form 2</span>
+    <span>Up to 1 MB (300x300 px)</span>
+
+  </section>
+
+  <section class="name">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+
+    <label for="mail">E-mail</label>
+    <input type="email" name="mail" id="mail">
+  </section>
+
+  <section class="adress">
+    <label for="country">Country</label>
+    <select name="country" id="country" required>
+      <option value="" selected disabled hidden>Select</option>
+      <option value="first-option">Батько наш Бандера</option>
+      <option value="second-option">Україна-Мати</option>
+    </select>
+
+    <label for="city">City</label>
+    <select name="city" id="city" required>
+      <option value="" selected disabled hidden>Select</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+    </select>
+  </section>
+  
+  <section class="contact-info">
+    <label for="zip">Zip Code</label>
+    <input type="number" name="zip" id="zip" maxlength="5">
+
+    <label for="phohe">Phone Number</label>
+    <input type="number" name="phohe" id="phohe">
+  </section>
+
+  <section class="button">
+    <button>Update</button>
+  </section>
+
+</body>
+</html>
