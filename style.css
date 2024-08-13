@@ -13,6 +13,7 @@ h1 {
   font-size: 24px;
   margin-right: auto;
 }
+
 section {
   margin-bottom: 20px;
 }
@@ -23,7 +24,7 @@ section {
   width: 280px;
 }
 
-.name label {
+.halfs label {
   display: block;
   font-size: 15px;
 }
@@ -41,7 +42,7 @@ input:hover {
 }
 
 #mail {
-  width: 525px;
+  width: 528px;
   height: 33px;
   border-radius: 6px;
   border-color: lightgray;
@@ -53,7 +54,7 @@ input:hover {
   border-color: #007BFF;
 }
 
-.e-mail>span {
+span {
   display: block;
   color: #969696;
   font-size: 13px;
@@ -72,5 +73,32 @@ input:hover {
   font-size: 15px;
 }
 
+select {
+  margin-top: 7px;
+  width: 250px;
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgray;
+}
 
+button {
+  width: 540px;
+  height: 38px;
+  border-radius: 6px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
 
+.sign-up>span {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
