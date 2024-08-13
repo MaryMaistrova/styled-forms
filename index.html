@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Account form</title>
 </head>
+
 <body>
   <h1>Create an Account</h1>
   <section class="name">
@@ -13,23 +15,70 @@
     <label for="l-name">Last Name</label>
     <input type="text" name="l-name" id="l-name">
   </section>
- 
-E-mail
- 
- 
-We'll never share your email with anyone else.
-Male
-Female
-Country
-City
-Select
- 
-Sign Up
-By clicking the 'Sign Up' button, you confirm that you accept our
-                         and                         .
-Terms of Use
-Privacy Policy
-Have an account?
-Log In
+
+  <section class="e-mail">
+    <label for="mail">E-mail</label>
+    <input type="email" name="mail" id="mail">
+    <span>We'll never share your email with anyone else.</span>
+  </section>
+
+  <section class="gender">
+
+    <label for="male">Male</label>
+    <input type="radio" name="gender-choice" id="male">
+
+    <label for="female">Female</label>
+    <input type="radio" name="gender-choice" id="female">
+
+    <label for="other">Other</label>
+    <input type="radio" name="gender-choice" id="other">
+
+    <label for="rude">None of your business</label>
+    <input type="radio" name="gender-choice" id="rude">
+
+  </section>
+
+  <section class="adress">
+    <label for="country">Country</label>
+    <select name="country" id="country" required>
+      <option value="" selected disabled hidden>Select</option>
+      <option value="first-option">Батько наш Бандера</option>
+      <option value="second-option">Україна-Мати</option>
+    </select>
+
+    <label for="city">City</label>
+    <select name="city" id="city" required>
+      <option value="" selected disabled hidden>Select</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+      <option value="Житомир">Житомир</option>
+    </select>
+  </section>
+
+  <section class="sign-up">
+    <button>Sign Up</button>
+    <span>By clicking the 'Sign Up' button, you confirm that you accept our Terms of Use and Privacy Policy .</span>
+  </section>
+
+  <hr>
+
+  <footer>
+    <span>Have an account?</span>
+    <a href="">Log In</a>
+    <a href="">Update an Account</a>
+  </footer>
+
+
+  
+  
+  
 </body>
+
 </html>
