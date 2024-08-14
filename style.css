@@ -51,6 +51,7 @@ input:hover {
   border-color: lightgray;
   margin-top: 7px;
   margin-bottom: 7px;
+  border-style: solid;
 }
 
 #mail:hover {
@@ -130,7 +131,6 @@ span {
   background: white;
 }
 
-
 .gender>label {
   font-size: 15px;
 }
@@ -193,6 +193,7 @@ button {
   border: none;
   margin-top: 5px;
   margin-bottom: 22px;
+  cursor: pointer;
 }
 
 .sign-up>span {
