@@ -65,6 +65,8 @@ span {
   width: 525px;
 }
 
+/* наступні 60 рядків коду нагло вкрадено з w3 */
+
 .portion {
   margin-right: auto;
   display: block;
@@ -96,11 +98,11 @@ span {
   border-radius: 50%;
 }
 
-.portion:hover input ~ .checkmark {
+.portion:hover input~.checkmark {
   background-color: #ccc;
 }
 
-.portion input:checked ~ .checkmark {
+.portion input:checked~.checkmark {
   background-color: #007BFF;
 }
 
@@ -110,7 +112,7 @@ span {
   display: none;
 }
 
-.portion input:checked ~ .checkmark:after {
+.portion input:checked~.checkmark:after {
   display: block;
 }
 
@@ -128,12 +130,46 @@ span {
   font-size: 15px;
 }
 
-select {
+.dropdown {
+  min-width: 350px;
+  position: relative;
+}
+
+.dropdown select {
+  appearance: none;
+  padding: 0.675em 6em 0.675em 1em;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
   margin-top: 7px;
   width: 250px;
   height: 33px;
   border-radius: 6px;
   border-color: lightgray;
+}
+
+.dropdown::before,
+.dropdown::after {
+  --size: 0.3rem;
+  position: absolute;
+  content: "";
+  right: 7rem;
+  pointer-events: none;
+}
+
+.dropdown::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid lightgray;
+  top: 40%;
+}
+
+.dropdown::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid lightgray;
+  top: 55%;
 }
 
 button {
