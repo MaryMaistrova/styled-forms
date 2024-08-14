@@ -36,6 +36,7 @@ section {
   height: 33px;
   border-radius: 6px;
   border-color: lightgray;
+  border-style: solid;
 }
 
 input:hover {
@@ -89,6 +90,7 @@ span {
   cursor: pointer;
   height: 0;
   width: 0;
+  border-style: solid;
 }
 
 .checkmark {

@@ -46,6 +46,7 @@ span {
   height: 33px;
   border-radius: 6px;
   border-color: lightgray;
+  border-style: solid;
 }
 
 input:hover {
