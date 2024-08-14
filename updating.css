@@ -7,6 +7,7 @@ body {
 .container {
   width: 570px;
   margin: auto;
+  padding-top: 50px;
 }
 
 h1 {
@@ -52,6 +53,52 @@ input:hover {
   background-color: #eee;
 }
 
+.dropdown {
+  min-width: 350px;
+  position: relative;
+}
+
+.dropdown select {
+  appearance: none;
+  padding: 1.675em 6em 1em 1em;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  margin-top: 7px;
+  width: 250px;
+  height: 33px;
+  border-radius: 6px;
+  border-color: lightgray;
+}
+
+.dropdown select:hover {
+  border-color: #007BFF;
+  background-color: #eee;
+}
+
+.dropdown::before,
+.dropdown::after {
+  --size: 0.3rem;
+  position: absolute;
+  content: "";
+  right: 7rem;
+  pointer-events: none;
+}
+
+.dropdown::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-bottom: var(--size) solid lightgray;
+  top: 40%;
+}
+
+.dropdown::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent;
+  border-top: var(--size) solid lightgray;
+  top: 55%;
+}
+
 button {
   width: 150px;
   height: 38px;
@@ -62,4 +109,10 @@ button {
   border: none;
   margin-top: 5px;
   margin-bottom: 22px;
+}
+
+a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
 }
