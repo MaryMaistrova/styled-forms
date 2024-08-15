@@ -70,6 +70,11 @@ img {
   right: 20%;
 }
 
+#trash>a {
+  text-decoration: none;
+  color: #fff;
+}
+
 span {
   display: block;
   color: #969696;
@@ -170,8 +175,21 @@ button {
   display: flex;
   width: 100px;
   height: 100px;
+  margin: auto;
+  padding-top: 200px;
 }
 
-.trash-bin>img {
+#bin {
+  text-decoration: none;
+  display: flex;
   margin: auto;
+  color: aquamarine;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+#linky {
+  text-decoration: none;
+  color: #fff;
+  margin-left: -30px;
 }
