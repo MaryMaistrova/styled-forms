@@ -34,10 +34,12 @@ section {
   border-style: solid;
   border-color: lightgrey;
   border-width: 2px;
+  position: relative;
 }
 
 #gallery::after {
   content: url(Photo\ Camera.svg);
+  position: absolute;
 }
 
 #gallery a {
@@ -47,6 +49,25 @@ section {
 
 img {
   border-radius: 50%;
+}
+
+#trash {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 2px;
+  position: relative;
+  cursor: pointer;
+}
+
+#trash::after {
+  content: url(Trash.svg);
+  position: absolute;
+  bottom: 8%;
+  right: 20%;
 }
 
 span {
@@ -143,4 +164,14 @@ button {
   color: #fff;
   font-size: 15px;
   text-decoration: none;
+}
+
+.trash-bin {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.trash-bin>img {
+  margin: auto;
 }
